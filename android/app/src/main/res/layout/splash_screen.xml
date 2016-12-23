@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical">
+
+    <!--ImageView top-->
+    <!--ImageView middle-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image_header_top"
+        android:contentDescription="@id/image_header_top"
+
+        android:src="@drawable/drawer_header"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image_header_middle"
+        android:contentDescription="@id/image_header_middle"
+
+        android:src="@drawable/drawer_header"
+        android:layout_below="@id/image_header_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+    <!--分割线，后面组件以此为参考-->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:id="@+id/line"
+        android:background="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        />
+    <!--掘金-->
+    <TextView
+        android:text="掘金"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_title"
+        android:textSize="40dp"
+        android:textColor="@android:color/background_light"
+
+        android:layout_toLeftOf="@id/line"
+        android:layout_alignBottom="@id/line"
+        android:layout_alignTop="@id/line"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        />
+    <!--logo-->
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_login_logo"
+        android:id="@+id/logo"
+
+        android:layout_alignTop="@id/line"
+        android:layout_toLeftOf="@id/logo_title"
+        android:layout_marginRight="5dp"
+        />
+
+    <!--site_des-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/site_des"
+        android:text="高质量的技术社区"
+        android:textSize="19dp"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@id/line"
+        android:layout_alignTop="@id/line"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+             />
+    <!--site_url-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/site_url"
+        android:text="gold.xitu.io"
+        android:textSize="19dp"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@id/line"
+        android:layout_alignBottom="@id/line"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="3dp"
+        />
+</RelativeLayout>

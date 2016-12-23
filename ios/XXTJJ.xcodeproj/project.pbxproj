@@ -22,6 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		5555A4081E0BC6CF000C10BB /* ic_login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5555A4071E0BC6CF000C10BB /* ic_login_logo.png */; };
 		55823BD21E0BCD1900DF0413 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55823BD11E0BCD1900DF0413 /* libRNVectorIcons.a */; };
 		55823BDF1E0BCD1900DF0413 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55823BD61E0BCD1900DF0413 /* Entypo.ttf */; };
 		55823BE01E0BCD1900DF0413 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55823BD71E0BCD1900DF0413 /* EvilIcons.ttf */; };
@@ -32,6 +33,7 @@
 		55823BE51E0BCD1900DF0413 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55823BDC1E0BCD1900DF0413 /* Octicons.ttf */; };
 		55823BE61E0BCD1900DF0413 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55823BDD1E0BCD1900DF0413 /* SimpleLineIcons.ttf */; };
 		55823BE71E0BCD1900DF0413 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55823BDE1E0BCD1900DF0413 /* Zocial.ttf */; };
+		55ADF60E1E0CC99200A9F6A4 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ADF60D1E0CC99200A9F6A4 /* SplashScreen.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
@@ -206,6 +208,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = XXTJJ/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = XXTJJ/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		5555A4071E0BC6CF000C10BB /* ic_login_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_logo.png; sourceTree = "<group>"; };
 		55823BAB1E0BCD1900DF0413 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		55823BD61E0BCD1900DF0413 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		55823BD71E0BCD1900DF0413 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 		55823BDC1E0BCD1900DF0413 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		55823BDD1E0BCD1900DF0413 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		55823BDE1E0BCD1900DF0413 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		55ADF60C1E0CC99200A9F6A4 /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashScreen.h; path = XXTJJ/SplashScreen.h; sourceTree = "<group>"; };
+		55ADF60D1E0CC99200A9F6A4 /* SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashScreen.m; path = XXTJJ/SplashScreen.m; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -339,6 +344,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				55ADF60C1E0CC99200A9F6A4 /* SplashScreen.h */,
+				55ADF60D1E0CC99200A9F6A4 /* SplashScreen.m */,
 			);
 			name = XXTJJ;
 			sourceTree = "<group>";
@@ -360,9 +367,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55823BD51E0BCD1900DF0413 /* Fonts */ = {
+		55823BD51E0BCD1900DF0413 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5555A4071E0BC6CF000C10BB /* ic_login_logo.png */,
 				55823BD61E0BCD1900DF0413 /* Entypo.ttf */,
 				55823BD71E0BCD1900DF0413 /* EvilIcons.ttf */,
 				55823BD81E0BCD1900DF0413 /* FontAwesome.ttf */,
@@ -373,6 +381,7 @@
 				55823BDD1E0BCD1900DF0413 /* SimpleLineIcons.ttf */,
 				55823BDE1E0BCD1900DF0413 /* Zocial.ttf */,
 			);
+			name = Resources;
 			path = Fonts;
 			sourceTree = "<group>";
 		};
@@ -425,7 +434,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				55823BD51E0BCD1900DF0413 /* Fonts */,
+				55823BD51E0BCD1900DF0413 /* Resources */,
 				13B07FAE1A68108700A75B9A /* XXTJJ */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* XXTJJTests */,
@@ -729,6 +738,7 @@
 				55823BE51E0BCD1900DF0413 /* Octicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				55823BE11E0BCD1900DF0413 /* FontAwesome.ttf in Resources */,
+				5555A4081E0BC6CF000C10BB /* ic_login_logo.png in Resources */,
 				55823BE01E0BCD1900DF0413 /* EvilIcons.ttf in Resources */,
 				55823BE31E0BCD1900DF0413 /* Ionicons.ttf in Resources */,
 				55823BE71E0BCD1900DF0413 /* Zocial.ttf in Resources */,
@@ -771,6 +781,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55ADF60E1E0CC99200A9F6A4 /* SplashScreen.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
