@@ -3,15 +3,19 @@
  */
 
 import React,{Component} from 'react';
-import {Navigator, Text, StyleSheet, View} from 'react-native';
+import {Navigator} from 'react-native';
 import SplashScreen from '../native_modules/SplashScreen'
+import MainPage from '../Main/MainPage'
 
 export default class Entry extends Component {
     render() {
       return(
-          <View style={style.entry}>
-          <Text>Entry</Text>
-          </View>
+          <Navigator
+            initialRoute={{component:MainPage}}
+            renderScene={(route,navigator) => {
+                return <route.component navigator={navigator} {...route.args}  />
+            }}
+          />
       )
     }
 
@@ -19,11 +23,3 @@ export default class Entry extends Component {
         SplashScreen.hide();
     }
 }
-
-const style = StyleSheet.create({
-    entry:{
-        flex:1,
-        justifyContent:'center',
-        alignItems:'center'
-    }
-})
